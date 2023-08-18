@@ -170,7 +170,7 @@ section {
 /* Services Section */
 .services .service-content {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
   align-items: center;
 }
 
@@ -179,9 +179,9 @@ section {
 }
 
 .services .card {
-  width: 200px; /* Set a fixed width for each card */
-  height: 300px; /* Set a fixed height for each card */
-  margin: 10px; /* Add spacing between cards */
+  width: 200px;
+  height: 300px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -190,12 +190,10 @@ section {
 }
 
 .services .card .card-img-top {
-  max-width: 100%; /* Ensure the image takes up the entire width */
-  height: 100px; /* Set a fixed height for each image */
+  max-width: 100%;
+  height: 100px;
   margin: 0 auto;
-}x; /* Add spacing between cards */
-
-
+}
 
 /* Style for Skills */
 
@@ -467,6 +465,76 @@ footer span a:hover {
   background-attachment: scroll;
   font-family: "Monteserrat", sans-serif;
 }
+
+/* Footer Styling */
+/* footer {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 30px 25px;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+footer .quick-links,
+footer .newsletter {
+  flex: 0 0 calc(50% - 20px);
+}
+
+footer .quick-links h3,
+footer .newsletter h3 {
+  color: rgb(254, 114, 89);
+  margin-bottom: 15px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .newsletter p {
+  margin-bottom: 10px;
+}
+
+footer .newsletter input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer .newsletter button[type="submit"] {
+  background-color: rgb(254, 114, 89);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+footer .newsletter button[type="submit"]:hover {
+  background-color: #ff5e2e;
+} */
 
 @media screen and (max-width: 768px) {
   .navbar .menu {
