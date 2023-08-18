@@ -466,76 +466,6 @@ footer span a:hover {
   font-family: "Monteserrat", sans-serif;
 }
 
-/* Footer Styling */
-/* footer {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  background-color: black;
-  text-align: center;
-  padding: 30px 25px;
-}
-
-footer .footer-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
-footer .quick-links,
-footer .newsletter {
-  flex: 0 0 calc(50% - 20px);
-}
-
-footer .quick-links h3,
-footer .newsletter h3 {
-  color: rgb(254, 114, 89);
-  margin-bottom: 15px;
-}
-
-footer ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-footer ul li {
-  margin-bottom: 10px;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-footer .newsletter p {
-  margin-bottom: 10px;
-}
-
-footer .newsletter input[type="email"] {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-footer .newsletter button[type="submit"] {
-  background-color: rgb(254, 114, 89);
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 15px;
-  cursor: pointer;
-}
-
-footer .newsletter button[type="submit"]:hover {
-  background-color: #ff5e2e;
-} */
-
 @media screen and (max-width: 768px) {
   .navbar .menu {
     display: none;
@@ -558,8 +488,7 @@ footer .newsletter button[type="submit"]:hover {
     margin: 10px 0;
   }
 
-  /* Home Section */
-  .home .home-content .text-1,
+  Home Section .home .home-content .text-1,
   .home .home-content .text-2,
   .home .home-content .text-3 {
     font-size: 18px;
@@ -571,14 +500,12 @@ footer .newsletter button[type="submit"]:hover {
     width: 200px;
   }
 
-  /* Services Section */
-  .services .service-content .card {
+  Services Section .services .service-content .card {
     width: 100%;
     margin: 0 0 20px;
   }
 
-  /* Skills Section */
-  .skills .skills-content .column {
+  Skills Section .skills .skills-content .column {
     width: 100%;
   }
 
